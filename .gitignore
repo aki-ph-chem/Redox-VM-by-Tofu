@@ -1,0 +1,11 @@
+tofu/.terraform/
+tofu/*.tfstate
+tofu/*.tfstate.*
+tofu/crash.log
+tofu/override.tf
+tofu/override.tf.json
+tofu/terraform.tfvars
+
+.direnv/
+result
+result-*

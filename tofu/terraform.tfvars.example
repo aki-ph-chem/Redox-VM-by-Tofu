@@ -1,0 +1,16 @@
+# Copy to terraform.tfvars and edit as needed.
+# The Nix wrapper already sets iso_path / ovmf_code / ovmf_vars via TF_VAR_*.
+
+# name         = "redox"
+# memory_mb    = 4096
+# vcpus        = 4
+# disk_size    = 17179869184 # 16 GiB
+# attach_installer = true
+
+# Keep the installed Redox disk when running `tofu destroy`:
+# protect_disk = true
+
+# Non-Nix usage:
+# iso_path  = "/path/to/redox_desktop_x86_64_..._livedisk.iso"
+# ovmf_code = "/usr/share/OVMF/OVMF_CODE.fd"
+# ovmf_vars = "/usr/share/OVMF/OVMF_VARS.fd"
